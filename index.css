@@ -1,0 +1,285 @@
+.container {
+  max-width: 83.33333vw;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-5 {
+  width: 41.12%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-1 {
+  width: 8.88%;
+}
+
+@media screen and (max-width: 578px) {
+  .col-3 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .col-5 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-7 {
+    width: 100%;
+  }
+  .col-8 {
+    width: 100%;
+  }
+  .col-10 {
+    width: 100%;
+  }
+  .col-11 {
+    width: 100%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.method {
+  background: url(../../img/method-bg.webp) center no-repeat;
+  background-size: 120%;
+  height: 100vh;
+}
+
+.method__wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.method__text {
+  max-width: 43.05556vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.method__title {
+  font-size: 2.08333vw;
+  font-weight: 300;
+  color: #ffff;
+  padding: 2.77778vw 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.method__description {
+  font-size: 1.25vw;
+  font-weight: 300;
+  color: #ffff;
+}
+
+.footer {
+  background: url(../../img/footer-bg.webp) center no-repeat;
+  background-size: 120%;
+  height: 100vh;
+}
+
+.footer__sidebar {
+  margin-bottom: 5.20833vw;
+}
+
+.footer__row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 9.72222vw;
+  padding-bottom: 9.375vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer__subtitle {
+  font-size: 1.66667vw;
+  font-weight: 600;
+  color: #141414;
+}
+
+.footer__title {
+  font-size: 1.94444vw;
+  font-weight: 800;
+  color: #141414;
+  margin: 0;
+}
+
+.footer__form {
+  width: 34.02778vw;
+  height: 34.02778vw;
+  padding: 3.47222vw 4.16667vw 2.08333vw 2.08333vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffff;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__list {
+  display: none;
+  position: absolute;
+}
+
+.form__input {
+  height: 2.77778vw;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #141414;
+  padding: 0 1.04167vw;
+  color: #141414;
+}
+
+.form__input::-webkit-input-placeholder {
+  font-size: 1.25vw;
+  font-weight: 400;
+  color: #141414;
+}
+
+.form__input:-ms-input-placeholder {
+  font-size: 1.25vw;
+  font-weight: 400;
+  color: #141414;
+}
+
+.form__input::-ms-input-placeholder {
+  font-size: 1.25vw;
+  font-weight: 400;
+  color: #141414;
+}
+
+.form__input::placeholder {
+  font-size: 1.25vw;
+  font-weight: 400;
+  color: #141414;
+}
+
+.form__button {
+  width: 100%;
+  background: #141414;
+  font-size: 1.66667vw;
+  font-weight: 500;
+  color: #ffff;
+  padding: 1.38889vw 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form__description {
+  font-size: 1.11111vw;
+  font-weight: 300;
+  color: #838383;
+}
+/*# sourceMappingURL=index.css.map */

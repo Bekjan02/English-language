@@ -1,0 +1,23 @@
+.method {
+        background: url(../../img/method-bg.webp) center no-repeat;
+        background-size: 120%;
+        height: 100vh;
+    &__wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__text {
+        max-width: vw(620);
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title {
+        @include font(vw(30),300, $color-white);
+        padding: vw(40) 0;
+        box-sizing: border-box;
+    }
+    &__description {
+        @include font(vw(18),300, $color-white);
+    }
+}

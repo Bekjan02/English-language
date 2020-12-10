@@ -1,0 +1,87 @@
+.footer{
+    background: url(../../img/footer-bg.webp) center no-repeat;
+    background-size: 120%;
+    height: 100vh;
+    &__sidebar {
+        margin-bottom: vw(75);
+    }
+    &__row {
+        align-items: center;
+        padding-top: vw(140);
+        padding-bottom: vw(135);
+        box-sizing: border-box;
+    }
+    &__subtitle {
+        @include font(vw(24), 600, $color-black)
+    }
+    &__title {
+        @include font(vw(28), 800, $color-black);
+        margin: 0;
+    }
+    &__form {
+        width: vw(490);
+        height: vw(490);
+        padding: vw(50) vw(60) vw(30) vw(30);
+        flex-direction: column;
+        background-color: $color-white;
+        justify-content: space-around;
+    }
+    &__list {
+        display: none;
+        position: absolute;
+    }
+    
+    // &__select {
+    //     width: vw(35);
+    //     height: vw(25);
+    //     border: none;
+    //     outline: none;
+    // }
+    // &__russia {
+        // select#nationality option[value="ru"]   { background-image:url(../../img/russia-flag.svg);   }
+
+
+
+        // background: url(../../img/russia-flag.svg) center no-repeat;
+        // background-size: cover;
+
+
+
+        // position: relative;
+        // &::before {
+        //     content: "";
+        //     display: inline-block;
+        //     z-index: 1;
+        //     position: absolute;
+        //     width: 35px;
+        //     height: 25px;
+        //     background: url(../../img/russia-flag.svg) center no-repeat;    
+        //     top: 0;
+        //     left: 0;
+        // }
+    // }
+}
+
+.form {
+    &__input {
+        height: vw(40);
+        border:none;
+        outline: none;
+        border-bottom: 1px solid $color-black;
+        padding: 0 vw(15);
+        color: $color-black; 
+        &::placeholder {
+            @include font (vw(18),400, $color-black)
+        }
+    }
+    &__button {
+        width: 100%;
+        background: $color-black;
+        @include font(vw(24), 500, $color-white);
+        padding: vw(20) 0;
+        box-sizing: border-box;
+    }
+    &__description {
+        @include font(vw(16), 300, $color-gray);
+    }
+}
