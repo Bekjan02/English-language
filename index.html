@@ -2,77 +2,128 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-    <section class="method">
-        <div class="container">
-            <div class="method__wrapper flex text-center">
-                <div class="method__text flex">
-                    <img src="./img/book.webp" alt="book">
-                    <h2 class="method__title">Антизубрёжка</h2>
-                    <p class="method__description">Для запоминания английских слов мы используем метод интервальных
-                        повторений, при котором повторение происходит через неравные промежутки времени.</p>
-                    <p class="method__description">Этот метод можно назвать методом «Антизубрежка». Никакие другие
-                        методики запоминания не дают такого результата!</p>
-                    <p class="method__description">Так, при изучении блока из 20 слов сначала повторяется 7-8 раз, а
-                        затем – через 30 секунд. Затем повторения проводятся через все более увеличивающиеся промежутки
-                        времени. Таким образом, достигается 97% запоминание за 3 дня при минимальном числе повторений.
-                    </p>
-                </div>
-            </div>
+  <section class="method">
+    <div class="container">
+      <div class="method__wrapper flex text-center">
+        <div class="method__text flex">
+          <img src="./img/book.webp" alt="book">
+          <h2 class="method__title">Антизубрёжка</h2>
+          <p class="method__description">Для запоминания английских слов мы используем метод интервальных
+            повторений, при котором повторение происходит через неравные промежутки времени.</p>
+          <p class="method__description">Этот метод можно назвать методом «Антизубрежка». Никакие другие
+            методики запоминания не дают такого результата!</p>
+          <p class="method__description">Так, при изучении блока из 20 слов сначала повторяется 7-8 раз, а
+            затем – через 30 секунд. Затем повторения проводятся через все более увеличивающиеся промежутки
+            времени. Таким образом, достигается 97% запоминание за 3 дня при минимальном числе повторений.
+          </p>
         </div>
-    </section>
-    <footer class="footer">
-        <div class="container">
-            <div class=" footer__row row">
-                <div class="footer__left col-5">
-                    <div class="footer__cours footer__sidebar">
-                        <h3 class="footer__subtitle">Курсы</h3>
-                        <h2 class="footer__title">Английского языка</h2>
-                    </div>
-                    <div class="footer__price footer__sidebar">
-                        <h3 class="footer__subtitle">Стоимость</h3>
-                        <h2 class="footer__title">5990 RUB</h2>
-                    </div>
-                    <div class="footer__discount footer__sidebar">
-                        <h3 class="footer__subtitle">Цена без акции</h3>
-                        <h2 class="footer__title">12000 RUB </h2>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <form class="footer__form flex text-center" action="">
-                        <h2 class="form__title">Свяжитесь с нами</h2>
-                        <input class="form__input" type="text" placeholder="Имя" name="name" required>
-                        <input class="form__input" type="text" placeholder="Email" name="email" required>
-                        <ul class="footer__list">
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class=" footer__row row">
+        <div class="footer__left col-5">
+          <div class="footer__cours footer__sidebar">
+            <h3 class="footer__subtitle">Курсы</h3>
+            <h2 class="footer__title">Английского языка</h2>
+          </div>
+          <div class="footer__price footer__sidebar">
+            <h3 class="footer__subtitle">Стоимость</h3>
+            <h2 class="footer__title">5990 RUB</h2>
+          </div>
+          <div class="footer__discount footer__sidebar">
+            <h3 class="footer__subtitle">Цена без акции</h3>
+            <h2 class="footer__title">12000 RUB </h2>
+          </div>
+        </div>
+        <div class="footer__right row">
+          <form class="footer__form flex text-center" action="">
+            <h2 class="form__title">Свяжитесь с нами</h2>
+            <input class="form__input" type="text" placeholder="Имя" name="name" required>
+            <input class="form__input" type="text" placeholder="Email" name="email" required>
+            <!-- <ul class="footer__list">
                             <li class="footer__item"> <img src="./img/russia-flag.svg" alt="ru"> </li>
                             <li class="footer__item"><img src="./img/russia-flag.svg" alt="ru"></li>
                             <li class="footer__item"><img src="./img/russia-flag.svg" alt="ru"></li>
-                        </ul>
-                        <!-- <select class="footer__select" name="flags" id="nationality">
-                            <option class="footer__russia" value="ru" data-imagesrc="">
-
-                            </option>
-                        </select> -->
-                        <input class="form__input" type="text" placeholder="Телефон" name="number" required>
-                        <button class="form__button">Заказать звонок</button>
-                        <span class="form__description text-center">Даю согласие на обработку данных</span>
-                    </form>
+                        </ul> -->
+            <div class="select-sim" id="select-color">
+              <div class="options" id="option">
+                <div class="option">
+                  <label for="color-">
+                    <img src="./img/russia-flag.svg" alt="" />
+                  </label>
                 </div>
+                <div class="option">
+                  <label for="color-red">
+                    <img src="./img/russia-flag.svg" alt="" />
+                  </label>
+                </div>
+                <div class="option">
+                  <label for="color-green">
+                    <img src="./img/russia-flag.svg" alt="" />
+                  </label>
+                </div>
+                <div class="option">
+                  <label for="color-blue">
+                    <img src="./img/russia-flag.svg" alt="" />
+                  </label>
+                </div>
+                <div class="option">
+                  <label for="color-yellow">
+                    <img src="./img/russia-flag.svg" alt="" />
+                  </label>
+                </div>
+                <div class="option">
+                  <label for="color-pink">
+                    <img src="./img/russia-flag.svg" alt="" />
+                  </label>
+                </div>
+                <div class="option">
+                  <label for="color-turquoise">
+                    <img src="./img/russia-flag.svg" alt="" />
+                  </label>
+                </div>
+              </div>
             </div>
+            <!-- <select name="" id="">
+                            <option value=""><img src="https://cdn.jsdelivr.net/npm/openmoji@12.4.0/color/svg/1F1F7-1F1FA.svg" alt=""></option>
+                          </select> -->
+            <input class="form__input form__number" type="text" placeholder="Телефон" name="number" required>
+            <button class="form__button">Заказать звонок</button>
+            <span class="form__description text-center">Даю согласие на обработку данных</span>
+          </form>
         </div>
-    </footer>
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
 </body>
-
 </html>
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js" ></script>
+<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js" ></script> -->
 <!-- <script>
     $(#slick).  
 </script> -->
+
+
+
+
+
+
+
+
+
+<!-- <select class="footer__select" name="flags" id="nationality">
+                        <option class="footer__russia" value="ru" data-imagesrc="">
+                            <img class="rus" src="./img/russia-flag.svg" alt="">
+                        </option>
+                    </select> -->
