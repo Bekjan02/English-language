@@ -1,7 +1,7 @@
 .footer{
     background: url(./img/footer-bg.png) center no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100vmin;
     &__sidebar {
         margin-bottom: vw(75);
     }
@@ -9,6 +9,7 @@
         align-items: center;
         padding-top: vw(40);
         box-sizing: border-box;
+        justify-content: center;
     }
     &__subtitle {
         @include font(vw(24), 600, $color-black)
@@ -26,7 +27,7 @@
         justify-content: space-around;
     }
     &__right {
-        max-width: 551px;
+        max-width: vw(551);
         position: relative;
         z-index: 1;
         &::before {
@@ -44,7 +45,7 @@
         height: vw(40);
         border:none;
         outline: none;
-        border-bottom: 1px solid $color-black;
+        border-bottom: vw(1) solid $color-black;
         padding: 0 vw(15);
         color: $color-black; 
         &::placeholder {
@@ -53,6 +54,7 @@
     }
     &__number{
         padding-left: vw(100);
+        position: relative;
     }
     &__button {
         width: 100%;
@@ -66,13 +68,13 @@
     }
 }
 .select-sim {
-    width: 55px;
-    height: 25px;
+    width: vw(55);
+    height: vw(25);
     overflow: hidden;
     padding: 0 10px;
     position: absolute;
-    left: vw(30);
-    bottom: 220px;
+    left: vw(28);
+    bottom: vw(230);
     z-index: 1;
 }
 .select-sim::after {
@@ -99,6 +101,14 @@
   top:-1px;
   left:-1px;
   width:100%;
-  height:88px;
+  height:vw(88);
   overflow-y:scroll;
+}
+
+@mixin mobile($screen-width) {
+	@media screen and (max-width: 425px) {
+		.footer {
+
+        }
+	}
 }

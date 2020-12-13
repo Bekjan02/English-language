@@ -1,13 +1,11 @@
 .container {
-	max-width: vw(1200);
+	max-width: 1200px;
 	margin: 0 auto;
 }
-
 body {
 	margin: 0;
-	font-family: "Proxima Nova", sans-serif;
+	padding: 0;
 }
-
 h1,
 h2,
 h3,
@@ -16,26 +14,21 @@ h5,
 h6 {
 	margin: 0;
 }
-
 ul {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
 }
-
 img {
 	max-width: 100%;
 }
-
 a {
 	text-decoration: none;
 }
-
 a,
 span {
 	display: inline-block;
 }
-
 button {
 	outline: none;
 	border: none;

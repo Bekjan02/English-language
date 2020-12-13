@@ -1,4 +1,4 @@
-const select = document.getElementById("select-color");
+const select = document.getElementById("select-flag");
 const option = document.getElementById("option");
 
 select.addEventListener('click', ()=>{

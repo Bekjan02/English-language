@@ -1,0 +1,21 @@
+.header{
+    background: url(./img/method-bg.webp) center;
+    background-size: 120%;
+    padding: vw(50) vw(80);
+    &__content{
+        text-align: center;
+        position: relative;
+        height: 100vmin;
+    }
+    &__video{
+        width: 100%;
+        height: 100%;
+    }
+    &__title{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 30%;
+        @include font(vw(60),900);
+    }
+}

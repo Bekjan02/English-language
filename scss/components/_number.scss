@@ -1,0 +1,45 @@
+.number{
+    background: url(./img/hero-bg.webp) center no-repeat;
+    height: 100vmin;
+    text-align: center;
+    background-size: cover;
+    @include flex-center();
+    &__content{
+        border: vw(15) solid black;
+        border-radius: vw(28);
+        padding: vw(70) vw(150);
+		// @include mobile(568px) {
+		// 	padding: vmin(70) vmin(150);
+		// }
+    }
+    &__info{
+        font-size: vw(102);
+		// @include mobile(568px) {
+        //     font-size: vmin(102);
+		// }
+        position: relative;
+        &::before,
+        &::after{
+            content: "";
+            background-color: #000;
+            border-radius: 50%;
+            width: vw(70);
+            height: vw(70);
+            top: 20%;
+            position: absolute;
+        }
+        &::before{
+            left: -10%;
+        }
+        &::after{
+            right: -10%;
+        }
+    }
+    &__title{
+        font-size: vw(48);
+        margin-top: vw(80);
+		// @include mobile(568px) {
+        //     font-size: vmin(48);
+		// }
+    }
+}

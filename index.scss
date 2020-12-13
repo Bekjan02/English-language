@@ -1,8 +1,12 @@
+@import "./scss/base";
 @import "./scss/functions";
+@import './scss/fonts/fonts';
 @import "./scss/mixins";
 @import "./scss/variables";
-@import "./scss/base";
 @import "./scss/columns";
 @import "./scss/components";
+@import "./scss/components/header";
+@import "./scss/components/number";
 @import "./scss/components/method";
 @import "./scss/components/footer";
+@import './scss/media';    
