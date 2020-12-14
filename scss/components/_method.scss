@@ -26,17 +26,17 @@
     }
 }
 
-@mixin mobile($screen-width) {
-	@media screen and (max-width: 425px) {
-		.method {
-            &__img {
-                width: 180px;
-            }
-            &__title {
-                font-size: vw(40);
-            }
+@media screen and (max-width: 425px) {
+    .method {
+        // &__img {
+        //     width: 180px;
+        // }
+        &__title {
+            font-size: vmin(30);
         }
-	}
+        &__description {
+            font-size: vmin(10);
+        }
+    }
 }
-
 

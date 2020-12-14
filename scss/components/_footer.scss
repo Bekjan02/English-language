@@ -100,15 +100,28 @@
   position:absolute;
   top:-1px;
   left:-1px;
-  width:100%;
+  width:vw(60);
   height:vw(88);
   overflow-y:scroll;
 }
 
-@mixin mobile($screen-width) {
-	@media screen and (max-width: 425px) {
-		.footer {
-
+@media screen and (max-width: 425px) {
+    .footer {
+        &__left {
+            width: 100%;
+            text-align: center;
         }
-	}
+        &__form {
+            width: vw(490);
+            height: vw(490);
+            padding: vw(50) vw(60) vw(30) vw(30);
+            &::placeholder {
+                font-size: vw(20);
+            }
+        }
+    }
+    .select-sim {
+        left: 0;
+        bottom: 30%;
+    }
 }

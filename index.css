@@ -427,6 +427,15 @@ button {
   width: 13.17716vw;
 }
 
+@media screen and (max-width: 425px) {
+  .method__title {
+    font-size: 7.05882vmin;
+  }
+  .method__description {
+    font-size: 2.35294vmin;
+  }
+}
+
 .footer {
   background: url(./img/footer-bg.png) center no-repeat;
   background-size: cover;
@@ -587,8 +596,36 @@ button {
   position: absolute;
   top: -1px;
   left: -1px;
-  width: 100%;
+  width: 4.39239vw;
   height: 6.44217vw;
   overflow-y: scroll;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__left {
+    width: 100%;
+    text-align: center;
+  }
+  .footer__form {
+    width: 35.87116vw;
+    height: 35.87116vw;
+    padding: 3.66032vw 4.39239vw 2.19619vw 2.19619vw;
+  }
+  .footer__form::-webkit-input-placeholder {
+    font-size: 1.46413vw;
+  }
+  .footer__form:-ms-input-placeholder {
+    font-size: 1.46413vw;
+  }
+  .footer__form::-ms-input-placeholder {
+    font-size: 1.46413vw;
+  }
+  .footer__form::placeholder {
+    font-size: 1.46413vw;
+  }
+  .select-sim {
+    left: 0;
+    bottom: 30%;
+  }
 }
 /*# sourceMappingURL=index.css.map */
