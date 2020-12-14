@@ -439,7 +439,7 @@ button {
 .footer {
   background: url(./img/footer-bg.png) center no-repeat;
   background-size: cover;
-  height: 100vmin;
+  height: 100vh;
 }
 
 .footer__sidebar {
