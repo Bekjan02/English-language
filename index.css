@@ -429,10 +429,10 @@ button {
 
 @media screen and (max-width: 425px) {
   .method__title {
-    font-size: 7.05882vmin;
+    font-size: 3.90625vmin;
   }
   .method__description {
-    font-size: 2.35294vmin;
+    font-size: 2.34375vmin;
   }
 }
 
@@ -606,6 +606,9 @@ button {
     width: 100%;
     text-align: center;
   }
+  .footer__right {
+    max-width: 71.74479vmin;
+  }
   .footer__form {
     width: 35.87116vw;
     height: 35.87116vw;
@@ -623,9 +626,37 @@ button {
   .footer__form::placeholder {
     font-size: 1.46413vw;
   }
-  .select-sim {
-    left: 0;
-    bottom: 30%;
+  .footer__form {
+    width: 63.80208vmin;
+    height: 63.80208vmin;
+  }
+  .footer__title {
+    font-size: 3.64583vmin;
+  }
+  .footer__subtitle {
+    font-size: 3.125vmin;
+  }
+  .form .select-sim {
+    left: 0px;
+    bottom: 9.76562vmin;
+  }
+  .form__description {
+    font-size: 2.08333vmin;
+  }
+  .form__button {
+    font-size: 3.125vmin;
+  }
+  .form__input::-webkit-input-placeholder {
+    font-size: 2.08333vmin;
+  }
+  .form__input:-ms-input-placeholder {
+    font-size: 2.08333vmin;
+  }
+  .form__input::-ms-input-placeholder {
+    font-size: 2.08333vmin;
+  }
+  .form__input::placeholder {
+    font-size: 2.08333vmin;
   }
 }
 /*# sourceMappingURL=index.css.map */

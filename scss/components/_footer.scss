@@ -111,6 +111,9 @@
             width: 100%;
             text-align: center;
         }
+        &__right {
+            max-width: vmin(551);
+        }
         &__form {
             width: vw(490);
             height: vw(490);
@@ -119,9 +122,32 @@
                 font-size: vw(20);
             }
         }
+        &__form {
+            width: vmin(490);
+            height: vmin(490);
+        }
+        &__title {
+            font-size: vmin(28);
+        }
+        &__subtitle {
+            font-size: vmin(24); 
+        }
     }
-    .select-sim {
-        left: 0;
-        bottom: 30%;
+    .form {
+        .select-sim {
+            left: 0px;
+            bottom: vmin(75);
+        }
+        &__description {
+            font-size: vmin(16);
+        }
+        &__button {
+            font-size: vmin(24);
+        }
+        &__input {
+            &::placeholder {
+                font-size: vmin(16);
+            }
+        }
     }
 }
