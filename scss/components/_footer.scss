@@ -116,17 +116,19 @@
         &__right {
             max-width: vmin(551);
         }
-        &__form {
-            width: vw(490);
-            height: vw(490);
-            padding: vw(50) vw(60) vw(30) vw(30);
-            &::placeholder {
-                font-size: vw(20);
-            }
+        &__sidebar {
+            margin-bottom: vmin(75);
+        }
+        &__row {
+            padding-top: vmin(40);
         }
         &__form {
             width: vmin(490);
             height: vmin(490);
+            padding: vw(50) vw(60) vw(30) vw(30);
+            &::placeholder {
+                font-size: vw(20);
+            }
         }
         &__title {
             font-size: vmin(28);
@@ -136,24 +138,31 @@
         }
     }
     .form {
-        .select-sim {
-            left: 0px;
-            bottom: vmin(75);
+        &__input {
+            height: vmin(40);
+            padding: 0 vmin(15);
+            &::placeholder {
+                font-size: vmin(16);
+            }
+        }
+        &__number {
+            padding-left: vmin(100);
+        }
+        &__title {
+            font-size: vmin(30);
         }
         &__description {
             font-size: vmin(16);
         }
         &__button {
             font-size: vmin(24);
-        }
-        &__input {
-            &::placeholder {
-                font-size: vmin(16);
-            }
+            padding: vmin(20) 0;
         }
     }
     .select-sim{
         width: vmin(55);
         height: vmin(30);
+        left: 0px;
+        bottom: vmin(75);
     }
 }

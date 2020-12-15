@@ -428,11 +428,17 @@ button {
 }
 
 @media screen and (max-width: 425px) {
+  .method__text {
+    max-width: 80.72917vmin;
+  }
   .method__title {
     font-size: 3.90625vmin;
   }
   .method__description {
     font-size: 2.34375vmin;
+  }
+  .method__img {
+    width: 23.4375vmin;
   }
 }
 
@@ -613,9 +619,15 @@ button {
   .footer__right {
     max-width: 71.74479vmin;
   }
+  .footer__sidebar {
+    margin-bottom: 9.76562vmin;
+  }
+  .footer__row {
+    padding-top: 5.20833vmin;
+  }
   .footer__form {
-    width: 35.87116vw;
-    height: 35.87116vw;
+    width: 63.80208vmin;
+    height: 63.80208vmin;
     padding: 3.66032vw 4.39239vw 2.19619vw 2.19619vw;
   }
   .footer__form::-webkit-input-placeholder {
@@ -630,25 +642,15 @@ button {
   .footer__form::placeholder {
     font-size: 1.46413vw;
   }
-  .footer__form {
-    width: 63.80208vmin;
-    height: 63.80208vmin;
-  }
   .footer__title {
     font-size: 3.64583vmin;
   }
   .footer__subtitle {
     font-size: 3.125vmin;
   }
-  .form .select-sim {
-    left: 0px;
-    bottom: 9.76562vmin;
-  }
-  .form__description {
-    font-size: 2.08333vmin;
-  }
-  .form__button {
-    font-size: 3.125vmin;
+  .form__input {
+    height: 5.20833vmin;
+    padding: 0 1.95312vmin;
   }
   .form__input::-webkit-input-placeholder {
     font-size: 2.08333vmin;
@@ -662,9 +664,24 @@ button {
   .form__input::placeholder {
     font-size: 2.08333vmin;
   }
+  .form__number {
+    padding-left: 13.02083vmin;
+  }
+  .form__title {
+    font-size: 3.90625vmin;
+  }
+  .form__description {
+    font-size: 2.08333vmin;
+  }
+  .form__button {
+    font-size: 3.125vmin;
+    padding: 2.60417vmin 0;
+  }
   .select-sim {
     width: 7.16146vmin;
     height: 3.90625vmin;
+    left: 0px;
+    bottom: 9.76562vmin;
   }
 }
 /*# sourceMappingURL=index.css.map */
