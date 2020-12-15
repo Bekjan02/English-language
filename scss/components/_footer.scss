@@ -83,7 +83,7 @@
 }
 .select-sim::after {
     content: "▼";
-    font-size: vw(8);
+    font-size: vw(12);
     font-family: arial;
     position: absolute;
     top: 50%;
@@ -166,7 +166,7 @@
         bottom: vmin(210);
         left: vmin(20);
         &::after {
-            font-size: vmin(8);
+            font-size: vmin(12);
         }
     }
 }
