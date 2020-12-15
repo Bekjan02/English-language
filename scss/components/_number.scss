@@ -8,15 +8,9 @@
         border: vw(15) solid black;
         border-radius: vw(28);
         padding: vw(70) vw(150);
-		// @include mobile(568px) {
-		// 	padding: vmin(70) vmin(150);
-		// }
     }
     &__info{
         font-size: vw(102);
-		// @include mobile(568px) {
-        //     font-size: vmin(102);
-		// }
         position: relative;
         &::before,
         &::after{
@@ -38,8 +32,5 @@
     &__title{
         font-size: vw(48);
         margin-top: vw(80);
-		// @include mobile(568px) {
-        //     font-size: vmin(48);
-		// }
     }
 }
