@@ -31,12 +31,13 @@
         margin: 0;
     }
     &__form {
-        width: vw(490);
-        height: vw(490);
-        padding: vw(50) vw(60) vw(30) vw(30);
+        width: vw(488);
+        height: vw(488);
+        padding: vw(30) vw(60) vw(30) vw(30);
         flex-direction: column;
         background-color: $color-white;
         justify-content: space-around;
+        box-sizing: border-box;
     }
 }
 
@@ -53,7 +54,7 @@
         }
     }
     &__number {
-        padding-left: vw(100);
+        padding-left: vw(80);
         position: relative;
     }
     &__button {
@@ -77,13 +78,13 @@
     padding: 0 vw(10);
     position: absolute;
     left: vw(40);
-    bottom: vw(230);
+    bottom: vw(205);
     z-index: 1;
     box-sizing: border-box;
 }
 .select-sim::after {
     content: "▼";
-    font-size: vw(12);
+    font-size: vw(8);
     font-family: arial;
     position: absolute;
     top: 50%;
@@ -111,19 +112,20 @@
             width: 100%;
             text-align: center;
         }
-        &__right {
-            max-width: vmin(551);
-        }
         &__sidebar {
             margin-bottom: vmin(75);
+        }
+        &__right {
+            max-width: vmin(551);
         }
         &__row {
             padding-top: vmin(40);
         }
         &__form {
-            width: vmin(490);
-            height: vmin(490);
-            padding: vw(50) vw(60) vw(30) vw(30);
+            width: vmin(488);
+            height: vmin(488);
+            padding: vw(30) vw(60) vw(30) vw(30);
+            box-sizing: border-box;
             &::placeholder {
                 font-size: vw(20);
             }
@@ -144,7 +146,7 @@
             }
         }
         &__number {
-            padding-left: vmin(100);
+            padding-left: vmin(80);
         }
         &__title {
             font-size: vmin(30);
@@ -163,10 +165,10 @@
         left: 0px;
         bottom: vmin(75);
         padding: 0 vmin(10);
-        bottom: vmin(210);
+        bottom: vmin(205);
         left: vmin(20);
         &::after {
-            font-size: vmin(12);
+            font-size: vmin(8);
         }
     }
 }

@@ -20,9 +20,6 @@
     &__description {
         @include font(vw(18), 300, $color-white);
     }
-    &__img {
-        width: vw(180);
-    }
 }
 
 @media screen and (max-width: 425px) {

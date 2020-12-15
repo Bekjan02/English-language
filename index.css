@@ -423,10 +423,6 @@ button {
   color: #ffff;
 }
 
-.method__img {
-  width: 13.17716vw;
-}
-
 @media screen and (max-width: 425px) {
   .method__text {
     max-width: 80.72917vmin;
@@ -498,9 +494,9 @@ button {
 }
 
 .footer__form {
-  width: 35.87116vw;
-  height: 35.87116vw;
-  padding: 3.66032vw 4.39239vw 2.19619vw 2.19619vw;
+  width: 35.72474vw;
+  height: 35.72474vw;
+  padding: 2.19619vw 4.39239vw 2.19619vw 2.19619vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -508,6 +504,8 @@ button {
   background-color: #ffff;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .form__input {
@@ -544,7 +542,7 @@ button {
 }
 
 .form__number {
-  padding-left: 7.32064vw;
+  padding-left: 5.85652vw;
   position: relative;
 }
 
@@ -576,7 +574,7 @@ button {
   padding: 0 0.73206vw;
   position: absolute;
   left: 2.92826vw;
-  bottom: 16.83748vw;
+  bottom: 15.00732vw;
   z-index: 1;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -584,7 +582,7 @@ button {
 
 .select-sim::after {
   content: "▼";
-  font-size: 0.87848vw;
+  font-size: 0.58565vw;
   font-family: arial;
   position: absolute;
   top: 50%;
@@ -614,19 +612,21 @@ button {
     width: 100%;
     text-align: center;
   }
-  .footer__right {
-    max-width: 71.74479vmin;
-  }
   .footer__sidebar {
     margin-bottom: 9.76562vmin;
+  }
+  .footer__right {
+    max-width: 71.74479vmin;
   }
   .footer__row {
     padding-top: 5.20833vmin;
   }
   .footer__form {
-    width: 63.80208vmin;
-    height: 63.80208vmin;
-    padding: 3.66032vw 4.39239vw 2.19619vw 2.19619vw;
+    width: 63.54167vmin;
+    height: 63.54167vmin;
+    padding: 2.19619vw 4.39239vw 2.19619vw 2.19619vw;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .footer__form::-webkit-input-placeholder {
     font-size: 1.46413vw;
@@ -663,7 +663,7 @@ button {
     font-size: 2.08333vmin;
   }
   .form__number {
-    padding-left: 13.02083vmin;
+    padding-left: 10.41667vmin;
   }
   .form__title {
     font-size: 3.90625vmin;
@@ -681,11 +681,11 @@ button {
     left: 0px;
     bottom: 9.76562vmin;
     padding: 0 1.30208vmin;
-    bottom: 27.34375vmin;
+    bottom: 26.69271vmin;
     left: 2.60417vmin;
   }
   .select-sim::after {
-    font-size: 1.5625vmin;
+    font-size: 1.04167vmin;
   }
 }
 /*# sourceMappingURL=index.css.map */
