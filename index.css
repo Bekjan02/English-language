@@ -573,31 +573,29 @@ button {
   width: 4.02635vw;
   height: 1.83016vw;
   overflow: hidden;
-  padding: 0 10px;
+  padding: 0 0.73206vw;
   position: absolute;
-  left: 2.04978vw;
+  left: 2.92826vw;
   bottom: 16.83748vw;
   z-index: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .select-sim::after {
   content: "▼";
-  font-size: 0.5em;
+  font-size: 0.58565vw;
   font-family: arial;
   position: absolute;
   top: 50%;
-  right: 5px;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  right: 0.36603vw;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
   cursor: pointer;
 }
 
 .select-sim.active {
   overflow: visible;
-}
-
-.select-sim:hover .options .option label {
-  display: inline-block;
 }
 
 .select-sim.active .options {
@@ -682,6 +680,12 @@ button {
     height: 3.90625vmin;
     left: 0px;
     bottom: 9.76562vmin;
+    padding: 0 1.30208vmin;
+    bottom: 27.34375vmin;
+    left: 2.60417vmin;
+  }
+  .select-sim::after {
+    font-size: 1.04167vmin;
   }
 }
 /*# sourceMappingURL=index.css.map */
