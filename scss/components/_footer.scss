@@ -2,6 +2,7 @@
     background: url(./img/footer-bg.png) center no-repeat;
     background-size: cover;
     height: 100vh;
+    font-family: $underground;
     &__right {
         max-width: vw(551);
         position: relative;
@@ -25,10 +26,11 @@
     }
     &__subtitle {
         @include font(vw(24), 600, $color-black);
+        font-family: $underground;
     }
     &__title {
         @include font(vw(28), 800, $color-black);
-        margin: 0;
+        font-family: $underground;
     }
     &__form {
         width: vw(488);
@@ -51,6 +53,7 @@
         color: $color-black;
         &::placeholder {
             @include font(vw(18), 400, $color-black);
+            font-family: $underground;
         }
     }
     &__number {
@@ -63,6 +66,7 @@
         @include font(vw(24), 500, $color-white);
         padding: vw(20) 0;
         box-sizing: border-box;
+        font-family: $underground;
     }
     &__title {
         font-size: vw(30)
