@@ -393,7 +393,6 @@ button {
   width: 4.02635vw;
   height: 1.83016vw;
   overflow: hidden;
-  padding: 0 0.73206vw;
   position: absolute;
   left: 2.92826vw;
   bottom: 15.00732vw;
@@ -451,16 +450,16 @@ button {
             box-sizing: border-box;
   }
   .footer__form::-webkit-input-placeholder {
-    font-size: 1.46413vw;
+    font-size: 2.60417vmin;
   }
   .footer__form:-ms-input-placeholder {
-    font-size: 1.46413vw;
+    font-size: 2.60417vmin;
   }
   .footer__form::-ms-input-placeholder {
-    font-size: 1.46413vw;
+    font-size: 2.60417vmin;
   }
   .footer__form::placeholder {
-    font-size: 1.46413vw;
+    font-size: 2.60417vmin;
   }
   .footer__title {
     font-size: 3.64583vmin;

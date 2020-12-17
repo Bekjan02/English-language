@@ -79,7 +79,6 @@
     width: vw(55);
     height: vw(25);
     overflow: hidden;
-    padding: 0 vw(10);
     position: absolute;
     left: vw(40);
     bottom: vw(205);
@@ -131,7 +130,7 @@
             padding: vw(30) vw(60) vw(30) vw(30);
             box-sizing: border-box;
             &::placeholder {
-                font-size: vw(20);
+                font-size: vmin(20);
             }
         }
         &__title {
