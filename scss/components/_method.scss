@@ -1,13 +1,13 @@
 .method {
     background: url(./img/method-bg.webp) center;
     background-size: 120%;
-    height: 100vmin;
     align-items: center;
+    padding: vw(100) 0 vw(90) 0;
+    box-sizing: border-box;
     &__text {
         max-width: vw(620);
         flex-direction: column;
         align-items: center;
-        padding: vw(100) 0 vw(85) 0;
     }
     &__title {
         @include font(vw(30), 300, $color-white);
@@ -23,6 +23,7 @@
 
 @media screen and (max-width: 425px) {
     .method {
+        padding: vmin(100) 0 vmin(90) 0;
         &__text {
             max-width: vmin(620);
         }

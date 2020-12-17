@@ -45,12 +45,12 @@ button {
 
 @font-face {
   font-family: "P22UndergroundCYProHeavy";
-  src: url("./fonts/P22UndergroundCYProHeavy.woff") format("woff"), url("./fonts/P22UndergroundCYProHeavy.woff2") format("woff2");
+  src: url("./scss/fonts/P22UndergroundCYProHeavy.woff") format("woff"), url("./scss/fonts/P22UndergroundCYProHeavy.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "GothamNarrSSm-XLight";
-  src: url("./fonts/Gotham.woff") format("woff"), url("./fonts/Gotham.woff2") format("woff2");
+  src: url("./scss/fonts/Gotham.woff") format("woff"), url("./scss/fonts/Gotham.woff2") format("woff2");
 }
 
 .col-12 {
@@ -199,10 +199,12 @@ button {
 .method {
   background: url(./img/method-bg.webp) center;
   background-size: 120%;
-  height: 100vmin;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 7.32064vw 0 6.58858vw 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .method__text {
@@ -214,7 +216,6 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 7.32064vw 0 6.22255vw 0;
 }
 
 .method__title {
@@ -235,6 +236,9 @@ button {
 }
 
 @media screen and (max-width: 425px) {
+  .method {
+    padding: 13.02083vmin 0 11.71875vmin 0;
+  }
   .method__text {
     max-width: 80.72917vmin;
   }
