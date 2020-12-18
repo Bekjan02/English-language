@@ -389,43 +389,49 @@ button {
   color: #838383;
 }
 
-.select-sim {
-  width: 4.02635vw;
-  height: 1.83016vw;
-  overflow: hidden;
+.dropdown {
+  position: relative;
+  display: inline-block;
   position: absolute;
-  left: 2.92826vw;
-  bottom: 15.00732vw;
-  z-index: 1;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  position: relative;
+  width: 4.02635vw;
+  bottom: 4.39239vw;
+  left: 0.51245vw;
 }
 
-.select-sim::after {
+.dropdown::after {
   content: "▼";
-  font-size: 0.58565vw;
+  font-size: 0.73206vw;
   font-family: arial;
   position: absolute;
   top: 50%;
-  right: 0.36603vw;
-  -webkit-transform: translate(50%, -50%);
-          transform: translate(50%, -50%);
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
   cursor: pointer;
 }
 
-.select-sim.active {
-  overflow: visible;
+.dropdown__content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 4.39239vw;
 }
 
-.select-sim.active .options {
-  background: white;
-  border: 1px solid #ccc;
-  position: absolute;
-  top: -1px;
-  left: -1px;
-  width: 4.39239vw;
-  height: 6.44217vw;
+.dropdown__content .active {
+  display: block;
   overflow-y: scroll;
+}
+
+.dropdown__img {
+  width: 100%;
+}
+
+.dropdown .active {
+  display: block;
+  overflow-y: scroll;
+  height: 6.22255vw;
 }
 
 @media screen and (max-width: 425px) {
@@ -445,7 +451,7 @@ button {
   .footer__form {
     width: 63.54167vmin;
     height: 63.54167vmin;
-    padding: 2.19619vw 4.39239vw 2.19619vw 2.19619vw;
+    padding: 3.90625vmin 7.8125vmin 3.90625vmin 3.90625vmin;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
@@ -472,16 +478,16 @@ button {
     padding: 0 1.95312vmin;
   }
   .form__input::-webkit-input-placeholder {
-    font-size: 2.08333vmin;
+    font-size: 2.34375vmin;
   }
   .form__input:-ms-input-placeholder {
-    font-size: 2.08333vmin;
+    font-size: 2.34375vmin;
   }
   .form__input::-ms-input-placeholder {
-    font-size: 2.08333vmin;
+    font-size: 2.34375vmin;
   }
   .form__input::placeholder {
-    font-size: 2.08333vmin;
+    font-size: 2.34375vmin;
   }
   .form__number {
     padding-left: 10.41667vmin;
@@ -496,17 +502,51 @@ button {
     font-size: 3.125vmin;
     padding: 2.60417vmin 0;
   }
-  .select-sim {
-    width: 7.16146vmin;
-    height: 3.90625vmin;
-    left: 0px;
-    bottom: 9.76562vmin;
-    padding: 0 1.30208vmin;
-    bottom: 26.69271vmin;
-    left: 2.60417vmin;
+  .dropdown {
+    bottom: 7.16146vmin;
+    left: 0.91146vmin;
   }
-  .select-sim::after {
-    font-size: 1.04167vmin;
+  .dropdown .active {
+    height: 11.06771vmin;
+  }
+  .dropdown .active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .dropdown__leabel {
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .dropdown {
+    bottom: 7.8125vmin;
+    left: 1.82292vmin;
+  }
+  .dropdown::after {
+    top: 60%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .dropdown {
+    bottom: 8.46354vmin;
+    left: 1.95312vmin;
+  }
+  .dropdown::after {
+    top: 60%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .dropdown {
+    bottom: 9.11458vmin;
+    left: 1.95312vmin;
   }
 }
 /*# sourceMappingURL=index.css.map */
