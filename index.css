@@ -147,53 +147,54 @@ button {
 }
 
 .number {
+  height: 100vh;
   background: url(./img/hero-bg.webp) center no-repeat;
-  height: 100vmin;
-  text-align: center;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  font-family: "P22UndergroundCYProHeavy";
+  color: white;
+}
+
+.number .container {
+  height: 100%;
+}
+
+.number__wrapper {
+  background: url(./img/number__img.png) center no-repeat;
+  background-size: contain;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  color: #141414;
+  width: 87.84773vw;
+  margin: 0 auto;
 }
 
-.number__content {
-  border: 1.0981vw solid black;
-  border-radius: 2.04978vw;
-  padding: 5.12445vw 10.98097vw;
+.number__img {
+  max-width: 100%;
 }
 
 .number__info {
   font-size: 7.46706vw;
-  position: relative;
-}
-
-.number__info::before, .number__info::after {
-  content: "";
-  background-color: #000;
-  border-radius: 50%;
-  width: 5.12445vw;
-  height: 5.12445vw;
-  top: 20%;
-  position: absolute;
-}
-
-.number__info::before {
-  left: -10%;
-}
-
-.number__info::after {
-  right: -10%;
+  font-weight: 700;
+  font-family: "P22UndergroundCYPro-Medium";
 }
 
 .number__title {
-  font-size: 3.51391vw;
   margin-top: 5.85652vw;
+  font-size: 3.51391vw;
+  font-weight: 900;
+  font-family: "P22UndergroundCYPro-Medium";
 }
 
 .method {
@@ -390,7 +391,6 @@ button {
 }
 
 .dropdown {
-  position: relative;
   display: inline-block;
   position: absolute;
   position: relative;

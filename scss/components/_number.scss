@@ -1,36 +1,36 @@
 .number{
+    height: 100vh;
     background: url(./img/hero-bg.webp) center no-repeat;
-    height: 100vmin;
-    text-align: center;
     background-size: cover;
-    @include flex-center();
-    &__content{
-        border: vw(15) solid black;
-        border-radius: vw(28);
-        padding: vw(70) vw(150);
+    font-family: "P22UndergroundCYProHeavy";
+    color: white;
+    .container{
+        height: 100%;
+    }
+    &__wrapper{
+        background: url(./img/number__img.png) center no-repeat;
+        background-size: contain;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        color: #141414;
+        width: vw(1200);
+        margin: 0 auto;
+    }
+    &__img{
+        max-width: 100%;
     }
     &__info{
         font-size: vw(102);
-        position: relative;
-        &::before,
-        &::after{
-            content: "";
-            background-color: #000;
-            border-radius: 50%;
-            width: vw(70);
-            height: vw(70);
-            top: 20%;
-            position: absolute;
-        }
-        &::before{
-            left: -10%;
-        }
-        &::after{
-            right: -10%;
-        }
+        font-weight: 700;
+        font-family: "P22UndergroundCYPro-Medium";
     }
     &__title{
-        font-size: vw(48);
         margin-top: vw(80);
+        font-size: vw(48);
+        font-weight: 900;
+        font-family: "P22UndergroundCYPro-Medium";
     }
 }
