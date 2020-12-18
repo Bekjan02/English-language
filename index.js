@@ -1,5 +1,5 @@
-const select = document.getElementById("select-flag");
-const option = document.getElementById("option");
+const select = document.getElementById("dropdown");
+const option = document.getElementById("dropdown__content");
 
 select.addEventListener('click', ()=>{
     select.classList.toggle('active')
