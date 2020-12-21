@@ -147,7 +147,7 @@ button {
 }
 
 .number {
-  height: 100vh;
+  height: 100vmin;
   background: url(./img/hero-bg.webp) center no-repeat;
   background-size: cover;
   font-family: "P22UndergroundCYProHeavy";
@@ -198,14 +198,15 @@ button {
 }
 
 .method {
-  background: url(./img/method-bg.webp) center;
-  background-size: 120%;
+  background: url(./img/method-bg.png) center no-repeat;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 7.32064vw 0 6.58858vw 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #141414;
+  background-size: 100%;
 }
 
 .method__text {
@@ -256,9 +257,10 @@ button {
 
 .footer {
   background: url(./img/footer-bg.png) center no-repeat;
-  background-size: cover;
-  height: 100vh;
+  background-size: 120%;
+  height: 56.07613vw;
   font-family: "P22UndergroundCYProHeavy", "sans-serif";
+  background-color: #e8e8e8;
 }
 
 .footer__right {
@@ -314,7 +316,7 @@ button {
 .footer__form {
   width: 35.72474vw;
   height: 35.72474vw;
-  padding: 2.19619vw 4.39239vw 2.19619vw 2.19619vw;
+  padding: 2.19619vw 4.31918vw 2.19619vw 5.19766vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -435,6 +437,9 @@ button {
 }
 
 @media screen and (max-width: 425px) {
+  .footer {
+    height: auto;
+  }
   .footer__left {
     width: 100%;
     text-align: center;
@@ -451,7 +456,7 @@ button {
   .footer__form {
     width: 63.54167vmin;
     height: 63.54167vmin;
-    padding: 3.90625vmin 7.8125vmin 3.90625vmin 3.90625vmin;
+    padding: 3.90625vmin 7.68229vmin 3.90625vmin 9.24479vmin;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
@@ -474,7 +479,7 @@ button {
     font-size: 3.125vmin;
   }
   .form__input {
-    height: 5.20833vmin;
+    height: 13.02083vmin;
     padding: 0 1.95312vmin;
   }
   .form__input::-webkit-input-placeholder {
@@ -539,7 +544,7 @@ button {
     left: 1.95312vmin;
   }
   .dropdown::after {
-    top: 60%;
+    top: 65%;
   }
 }
 

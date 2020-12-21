@@ -1,8 +1,9 @@
 .footer {
     background: url(./img/footer-bg.png) center no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-size: 120%;
+    height: vw(766);
     font-family: $underground;
+    background-color: #e8e8e8;
     &__right {
         max-width: vw(551);
         position: relative;
@@ -35,7 +36,7 @@
     &__form {
         width: vw(488);
         height: vw(488);
-        padding: vw(30) vw(60) vw(30) vw(30);
+        padding: vw(30) vw(59) vw(30) vw(71);
         flex-direction: column;
         background-color: $color-white;
         justify-content: space-around;
@@ -113,8 +114,18 @@
     }
 }
 
+// MEDIA
+
+
+
+
+
+
+
+
 @media screen and (max-width: 425px) {
     .footer {
+        height: auto;
         &__left {
             width: 100%;
             text-align: center;
@@ -131,7 +142,7 @@
         &__form {
             width: vmin(488);
             height: vmin(488);
-            padding: vmin(30) vmin(60) vmin(30) vmin(30);
+            padding: vmin(30) vmin(59) vmin(30) vmin(71);
             box-sizing: border-box;
             &::placeholder {
                 font-size: vmin(20);
@@ -146,7 +157,7 @@
     }
     .form {
         &__input {
-            height: vmin(40);
+            height: vmin(100);
             padding: 0 vmin(15);
             &::placeholder {
                 font-size: vmin(18);

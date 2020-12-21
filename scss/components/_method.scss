@@ -1,9 +1,10 @@
 .method {
-    background: url(./img/method-bg.webp) center;
-    background-size: 120%;
+    background: url(./img/method-bg.png) center no-repeat;
     align-items: center;
     padding: vw(100) 0 vw(90) 0;
     box-sizing: border-box;
+    background-color: $color-black;
+    background-size: 100%;
     &__text {
         max-width: vw(620);
         flex-direction: column;
