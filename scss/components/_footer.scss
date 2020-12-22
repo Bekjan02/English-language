@@ -1,7 +1,7 @@
 .footer {
     background: url(./img/footer-bg.png) center no-repeat;
     background-size: 120%;
-    height: vw(766);
+    height: 100vmin;
     font-family: $underground;
     background-color: #e8e8e8;
     &__right {
@@ -17,7 +17,8 @@
         }
     }
     &__sidebar {
-        margin-bottom: vw(75);
+        margin-bottom: vw(55);
+        margin-left: vw(105);
     }
     &__row {
         align-items: center;
@@ -132,6 +133,7 @@
         }
         &__sidebar {
             margin-bottom: vmin(75);
+            margin-left: 0;
         }
         &__right {
             max-width: vmin(551);

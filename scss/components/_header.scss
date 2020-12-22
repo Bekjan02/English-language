@@ -17,5 +17,6 @@
         right: 0;
         bottom: 30%;
         @include font(vw(60),900);
+        font-family: $underground;
     }
 }

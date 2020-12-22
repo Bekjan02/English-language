@@ -2,7 +2,7 @@
     height: 100vmin;
     background: url(./img/hero-bg.webp) center no-repeat;
     background-size: cover;
-    font-family: "P22UndergroundCYProHeavy";
+    font-family: $underground;
     color: white;
     .container{
         height: 100%;
@@ -25,12 +25,10 @@
     &__info{
         font-size: vw(102);
         font-weight: 700;
-        font-family: "P22UndergroundCYPro-Medium";
     }
     &__title{
         margin-top: vw(80);
         font-size: vw(48);
         font-weight: 900;
-        font-family: "P22UndergroundCYPro-Medium";
     }
 }
