@@ -1,7 +1,8 @@
 .header{
-    background: url(./img/method-bg.webp) center;
+    background: url(./img/method-bg.png) center;
     background-size: 120%;
     padding: vw(50) vw(80);
+    background-color: $color-black;
     &__content{
         text-align: center;
         position: relative;

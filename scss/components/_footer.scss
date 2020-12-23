@@ -51,7 +51,7 @@
         border: none;
         outline: none;
         border-bottom: vw(1) solid $color-black;
-        padding: 0 vw(15);
+        padding: vw(10) vw(15) vw(10) vw(15);
         color: $color-black;
         &::placeholder {
             @include font(vw(18), 400, $color-black);
@@ -160,7 +160,7 @@
     .form {
         &__input {
             height: vmin(100);
-            padding: 0 vmin(15);
+            padding: vmin(10) vmin(15) vmin(10) vmin(15);
             &::placeholder {
                 font-size: vmin(18);
             }

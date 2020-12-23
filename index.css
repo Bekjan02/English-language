@@ -120,9 +120,10 @@ button {
 }
 
 .header {
-  background: url(./img/method-bg.webp) center;
+  background: url(./img/method-bg.png) center;
   background-size: 120%;
   padding: 3.66032vw 5.85652vw;
+  background-color: #141414;
 }
 
 .header__content {
@@ -149,7 +150,7 @@ button {
 
 .number {
   height: 100vmin;
-  background: url(./img/hero-bg.webp) center no-repeat;
+  background: url(./img/hero-bg.png) center no-repeat;
   background-size: cover;
   font-family: "P22UndergroundCYProHeavy", "sans-serif";
   color: white;
@@ -333,7 +334,7 @@ button {
   border: none;
   outline: none;
   border-bottom: 0.07321vw solid #141414;
-  padding: 0 1.0981vw;
+  padding: 0.73206vw 1.0981vw 0.73206vw 1.0981vw;
   color: #141414;
 }
 
@@ -481,7 +482,7 @@ button {
   }
   .form__input {
     height: 13.02083vmin;
-    padding: 0 1.95312vmin;
+    padding: 1.30208vmin 1.95312vmin 1.30208vmin 1.95312vmin;
   }
   .form__input::-webkit-input-placeholder {
     font-size: 2.34375vmin;
