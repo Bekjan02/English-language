@@ -189,6 +189,26 @@ button {
 .number__info {
   font-size: 7.46706vw;
   font-weight: 700;
+  position: relative;
+}
+
+.number__info::before, .number__info::after {
+  position: absolute;
+  content: "";
+  border-radius: 7.32064vw;
+  background: #141414;
+  width: 5.12445vw;
+  height: 5.12445vw;
+}
+
+.number__info::before {
+  left: -8.78477vw;
+  top: 2.92826vw;
+}
+
+.number__info::after {
+  right: -8.78477vw;
+  top: 2.92826vw;
 }
 
 .number__title {

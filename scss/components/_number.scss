@@ -25,6 +25,23 @@
     &__info{
         font-size: vw(102);
         font-weight: 700;
+        position: relative;
+        &::before,&::after{
+            position: absolute;
+            content: "";
+            border-radius: vw(100);
+            background: #141414;
+            width: vw(70);
+            height: vw(70);
+        }
+        &::before{
+            left: vw(-120);
+            top: vw(40);
+        }
+        &::after{
+            right: vw(-120);
+            top: vw(40);
+        }
     }
     &__title{
         margin-top: vw(80);
